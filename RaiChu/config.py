@@ -23,9 +23,9 @@ GROUP_SUPPORT = getenv("GROUP_SUPPORT")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL")
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "").split())
-COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
+
 ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/c83b000f004f01897fe18.png")
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
+
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AMANTYA1/RaiChu-MusicV2")
 IMG_1 = getenv("IMG_1", "https://telegra.ph/file/d6f92c979ad96b2031cba.png")
 IMG_2 = getenv("IMG_2", "https://telegra.ph/file/6213d2673486beca02967.png")
